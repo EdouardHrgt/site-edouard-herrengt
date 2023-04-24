@@ -39,9 +39,6 @@ a {
   letter-spacing: 3px;
   padding: 0 0.8em;
 }
-a:focus {
-  outline: 1px solid var(--col-1);
-}
 .sub-title {
   color: var(--col-1);
   font-size: 3.7em;

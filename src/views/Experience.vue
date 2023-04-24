@@ -2,7 +2,24 @@
     <div class="vue__experiences__container">
         <navigator />
         <section class="experiences" id="_experiences">
-        <h2 class="sub-title">Expériences</h2>
+          <h2 class="sub-title">Expériences</h2>
+          <div class="exp-1">
+            <span class="date"><em class="time">2022-2023</em><br />Chef de projet</span>
+            <div class="bulle"></div>
+            <div class="taches">
+            <strong>Farmtopia</strong>
+            <h3 id="legend">Projet éducatif propulsé par Nestlé© en partenariat avec Microsoft© via le support du jeu vidéo "Minecraft"</h3>
+            <ul>
+              <li>Création des concepts et visuels</li>
+              <li>
+                Rédaction des divers contenus présentés (leçons, règles du jeu, dialogues et questionnaires intéractifs...)
+              </li>
+                <li>Gestion de la communication interne (ascendante et descendante)</li>
+                <li>Game design via la création de divers jeux en lien avec la thématique environnementale du projet</li>
+                <li>Participation aux enjeux RSE</li>
+            </ul>
+            </div>
+          </div>
         <div class="exp-1">
             <span class="date"><em class="time">2019-2020</em><br />Chef de projet</span>
             <div class="bulle"></div>
@@ -164,7 +181,10 @@ export default {
   margin: 5px 0;
   text-decoration: underline;
 }
-
+#legend {
+  text-decoration: none;
+  font-style: italic;
+}
 .time {
   color: var(--col-2);
   font-size: 1em;

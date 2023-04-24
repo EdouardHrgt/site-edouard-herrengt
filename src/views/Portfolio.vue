@@ -57,12 +57,28 @@ export default {
     return {
       projects: [
         {
+          name: 'Sneakers',
+          link: 'https://6410a87dc4dd4900c0b8c622--eclectic-melba-a023de.netlify.app/',
+          code: 'https://github.com/EdouardHrgt/sneakers/tree/main/frontend',
+          alt: 'Site E-commerce de basket',
+          picture: require('@/assets/projects/sneakers.png'),
+          techs: ['html', 'css', 'javascript', 'vue'],
+        },
+        {
           name: 'Splitter',
           link: 'https://edouardhrgt.github.io/tipcalculator/',
           code: 'https://github.com/EdouardHrgt/tipcalculator',
           alt: 'Calculateur de pourboire pour les groupes',
           picture: require('@/assets/projects/splitter.png'),
           techs: ['html', 'css', 'javascript'],
+        },
+        {
+          name: 'Dev Porfolio',
+          link: 'https://ornate-youtiao-0a6174.netlify.app/',
+          code: 'https://github.com/EdouardHrgt/portfolio',
+          alt: 'Portfolio de Développeur',
+          picture: require('@/assets/projects/portfolio.png'),
+          techs: ['html', 'css', 'javascript', 'vue'],
         },
         {
           name: 'Bookie',
@@ -119,6 +135,22 @@ export default {
           picture: require('@/assets/projects/groupo.png'),
           techs: ['html', 'css', 'javascript', 'vue', 'node', 'mysql'],
         },
+        {
+          name: 'Guess my number',
+          link: 'https://edouardhrgt.github.io/guess_my_number/',
+          code: 'https://github.com/EdouardHrgt/guess_my_number',
+          alt: 'Devinez le nombre généré',
+          picture: require('@/assets/projects/guess-my-number.png'),
+          techs: ['html', 'css', 'javascript', 'vue'],
+        },
+        {
+          name: 'TodoList',
+          link: 'http://mczkdip.cluster029.hosting.ovh.net/',
+          code: 'https://github.com/EdouardHrgt/TodoList-App',
+          alt: 'une liste dynamique',
+          picture: require('@/assets/projects/todolist.png'),
+          techs: ['html', 'css', 'javascript', 'vue'],
+        },
       ],
     };
   },
@@ -170,13 +202,13 @@ export default {
   color: var(--light-1);
   margin: 6rem auto;
   width: 1200px;
-  height: 600px;
+  min-height: 600px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr) [4];
   grid-template-columns: repeat(4, 1fr);
-  -ms-grid-rows: (1fr) [2];
-  grid-template-rows: repeat(2, 1fr);
+  -ms-grid-rows: (1fr) [3];
+  grid-template-rows: repeat(3, 1fr);
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -214,6 +246,10 @@ export default {
   -ms-grid-row: 2;
   -ms-grid-column: 4;
 }
+.projects > *:nth-child(9) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
 .projects .project {
   width: 250px;
   height: 250px;
@@ -221,6 +257,7 @@ export default {
   cursor: pointer;
   position: relative;
   outline: 1px solid var(--col-2);
+  margin: 1rem 0;
 }
 .project-name {
   background-color: var(--trans-3);

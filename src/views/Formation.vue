@@ -11,7 +11,7 @@
           <p><strong>Open Classrooms</strong>.fr</p>
           <ul>
             <li>
-              Apprentissage (sous mentorat) du développement web full stack et de ses bonnes pratiques (SEO, RGPD, WCAG)
+              Apprentissage (sous mentorat) du développement web fullstack et de ses bonnes pratiques (SEO, RGPD, WCAG)
             </li>
             <li>Réalisation de 7 projets web en totale autonomie 
               allant de l'intégration à la création d'un site E-commerce, de REST API puis d'un réseau social.</li>

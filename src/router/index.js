@@ -33,6 +33,7 @@ const routes = [
 
 const router = new VueRouter({
   // history: createWebHistory(),
+  mode: 'history',
   routes,
 });
 
