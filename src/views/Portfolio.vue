@@ -57,8 +57,32 @@ export default {
     return {
       projects: [
         {
+          name: 'Audiophile',
+          link: 'https://6515f55974f9bd0e5e28e3f3--euphonious-cobbler-8775e1.netlify.app/',
+          code: 'https://github.com/EdouardHrgt/Audiophile',
+          alt: 'Site E-commerce',
+          picture: require('@/assets/projects/audiophile.png'),
+          techs: ['vite', 'vue', 'Pinia', 'TailWind'],
+        },
+        {
+          name: 'Designo',
+          link: 'https://65044e6f9e34cd18268bfd7b--designo-0website.netlify.app/company',
+          code: 'https://github.com/EdouardHrgt/Designo',
+          alt: 'Agence Creative',
+          picture: require('@/assets/projects/designo.png'),
+          techs: ['vite', 'vue', 'Pinia'],
+        },
+        {
+          name: 'MyTeam',
+          link: 'https://precious-kitten-4a4661.netlify.app/home',
+          code: 'https://github.com/EdouardHrgt/my-team',
+          alt: 'Agence De Management',
+          picture: require('@/assets/projects/myteam.png'),
+          techs: ['vite', 'vue'],
+        },
+        {
           name: 'Sneakers',
-          link: 'https://6410a87dc4dd4900c0b8c622--eclectic-melba-a023de.netlify.app/',
+          link: 'https://eclectic-melba-a023de.netlify.app/',
           code: 'https://github.com/EdouardHrgt/sneakers/tree/main/frontend',
           alt: 'Site E-commerce de basket',
           picture: require('@/assets/projects/sneakers.png'),
@@ -89,6 +113,14 @@ export default {
           techs: ['html', 'css'],
         },
         {
+          name: 'ThePanet',
+          link: 'https://effulgent-fenglisu-dc4b60.netlify.app/planet/mercury',
+          code: 'https://github.com/EdouardHrgt/planets',
+          alt: 'Le système solaire',
+          picture: require('@/assets/projects/planet.png'),
+          techs: ['Vite', 'Vue'],
+        },
+        {
           name: 'Shi Fu Mi',
           link: 'https://edouardhrgt.github.io/Shi-Fu-Mi/',
           code: 'https://github.com/EdouardHrgt/Shi-Fu-Mi',
@@ -113,12 +145,12 @@ export default {
           techs: ['html', 'css', 'javascript'],
         },
         {
-          name: 'Accordeon',
-          link: 'https://edouardhrgt.github.io/accordeon/',
-          code: 'https://github.com/EdouardHrgt/accordeon',
-          alt: 'Site de FAQ',
-          picture: require('@/assets/projects/accordeon.png'),
-          techs: ['html', 'css', 'javascript'],
+          name: 'DevJobs',
+          link: 'https://curious-biscuit-4b7e05.netlify.app/',
+          code: 'https://github.com/EdouardHrgt/devjobs',
+          alt: "Site de recherche d'emploi",
+          picture: require('@/assets/projects/devjobs.png'),
+          techs: ['Vue', 'css', 'javascript'],
         },
         {
           name: 'Blogr',
