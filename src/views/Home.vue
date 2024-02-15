@@ -8,12 +8,10 @@
         <div class="title-container">
           <h1>Édouard Herrengt</h1>
           <p id="job">Développeur Web</p>
-          <h2>Téléphone :</h2>
-          <p>06 29 61 17 79</p>
           <h2>Email :</h2>
           <p>herrengt.edouard@gmail.com</p>
           <h2>Adresse :</h2>
-          <p>19 Allée Vauban 59110 La Madeleine</p>
+          <p>Allée Vauban 59110 La Madeleine</p>
           <h2>Date de naissance :</h2>
           <p>7 novembre, 1989</p>
         </div>
@@ -26,25 +24,40 @@
       <div class="socials-wrapper">
         <ul class="socials">
           <li>
-            <a href="https://www.linkedin.com/in/edouard-herrengt-446716168/" target="_blank">
-              <img src="../assets/linkedin.png" alt="profil LinkedIn de Edouard Herrengt" />
+            <a
+              href="https://www.linkedin.com/in/edouard-herrengt-446716168/"
+              target="_blank"
+            >
+              <img
+                src="../assets/linkedin.png"
+                alt="profil LinkedIn de Edouard Herrengt"
+              />
             </a>
           </li>
           <li>
             <a href="https://twitter.com/Bobely89" target="_blank">
-              <img src="../assets/twitter.png" alt="Page Twitter de Edouard herrengt" />
+              <img
+                src="../assets/twitter.png"
+                alt="Page Twitter de Edouard herrengt"
+              />
             </a>
           </li>
 
           <li>
             <a href="mailto:herrengt.edouard@gmail.com?" target="_blank">
-              <img src="../assets/email.png" alt=" envoyer un email à Edouard herrengt" />
+              <img
+                src="../assets/email.png"
+                alt=" envoyer un email à Edouard herrengt"
+              />
             </a>
           </li>
 
           <li>
             <a href="https://github.com/EdouardHrgt" target="_blank">
-              <img src="../assets/github.png" alt="Page Github de Edouard herrengt" />
+              <img
+                src="../assets/github.png"
+                alt="Page Github de Edouard herrengt"
+              />
             </a>
           </li>
         </ul>
@@ -55,14 +68,17 @@
       <div class="presentation">
         <h3><span id="hello">Bonjour !</span><br />Je suis Édouard HÉRRENGT</h3>
         <p>
-          Désireux d'entreprendre, j'ai co-fondé la société Epicube SAS à 24 ans. ces 6 années
-          d’expériences d’entrepreneur m’ont forgé une réélle aptitude à faire face à toutes
-          situations, j’ai développé le sens du travail en équipe et le goût du challenge.
-          Aujourd'hui je me suis lancé un nouvel objectif : maitriser le
+          Désireux d'entreprendre, j'ai co-fondé la société Epicube SAS à 24
+          ans. ces 6 années d’expériences d’entrepreneur m’ont forgé une réélle
+          aptitude à faire face à toutes situations, j’ai développé le sens du
+          travail en équipe et le goût du challenge. Aujourd'hui je me suis
+          lancé un nouvel objectif : maitriser le
           <strong>développement Web</strong> !<br />
           <span id="download">
             Retrouvez mon cv au format PDF ici :
-            <a class="ddl-btn" href="../CV-Edouard-Herrengt.pdf" target="_blank">Cv.pdf</a>
+            <a class="ddl-btn" href="../CV-Edouard-Herrengt.pdf" target="_blank"
+              >Cv.pdf</a
+            >
           </span>
         </p>
       </div>
@@ -72,8 +88,8 @@
 </template>
 
 <script>
-import Nav from '@/components/Nav.vue';
-import Foot from '@/components/Foot.vue';
+import Nav from "@/components/Nav.vue";
+import Foot from "@/components/Foot.vue";
 export default {
   components: {
     navigator: Nav,
@@ -91,7 +107,7 @@ header {
 }
 header::before {
   background: url(../assets/City.webp) no-repeat center center/cover;
-  content: '';
+  content: "";
   height: 100%;
   left: 0;
   position: absolute;
@@ -127,6 +143,7 @@ header::before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 375px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -303,6 +320,7 @@ header::before {
 
   .title-container {
     margin-left: 0;
+    min-height: auto;
   }
 
   .title-container h1 {
@@ -367,6 +385,9 @@ header::before {
   .title-wrapper {
     margin: 0 15%;
     width: 70%;
+  }
+  .title-container {
+    min-height: auto;
   }
 
   .socials-wrapper {
